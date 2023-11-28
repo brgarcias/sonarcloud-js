@@ -1,0 +1,74 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Diretórios
+node_modules/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+*.out
+
+# Arquivos de configuração
+.DS_Store
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production
+
+# Dependências locais
+/.pnp
+.pnp.js
+
+# Yarn
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Jest
+coverage/
+
+# TSLint
+tslint-report.json
+tslint-error.json
+
+# Ignorar arquivos de compilação
+*.d.ts
+*.map
+
+# Dependências do VSCode
+.vscode/
+
+# Dependências do WebStorm
+.idea/
+
+# Dependências do Sublime Text
+.sublime-*
+
+# Dependências do Eclipse
+.project
+.buildpath
+
+# Dependências do Visual Studio
+.vscode/
+*.suo
+*.ntvs*
+
+# Dependências do Windows
+Thumbs.db
+Desktop.ini
+
+# Dependências do macOS
+.DS_Store
+
+# Dependências do Linux
+*.swp
+
+# SonarQube
+.scannerwork
